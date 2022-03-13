@@ -38,7 +38,7 @@ jobs:
         run: terraform init
 
       - name: Terraform Plan
-        id: init
+        id: plan
         run: terraform plan
 
       - name: Terraform Apply Global
